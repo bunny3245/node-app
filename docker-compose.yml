@@ -3,7 +3,6 @@ services :
   web :
     build :
        context : .
-       image: bunny324/jenkins:latest
     ports :
       - "3000:3000"
        
